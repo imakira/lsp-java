@@ -118,7 +118,7 @@
                 <artifactItem>
                   <groupId>com.microsoft.java</groupId>
                   <artifactId>com.microsoft.java.debug.plugin</artifactId>
-                  <version>0.46.0</version>
+                  <version>0.53.1</version>
                   <outputDirectory>${java.debug.root}</outputDirectory>
                   <destFileName>java.debug.plugin.jar</destFileName>
                 </artifactItem>
@@ -226,7 +226,7 @@
                 <resource>
                   <directory>${project.build.directory}/java-dependency/extension/server/</directory>
                   <includes>
-                    <include>com.microsoft.jdtls.ext.core-0.5.1.jar</include>
+                    <include>com.microsoft.jdtls.ext.core-*.jar</include>
                   </includes>
                 </resource>
               </resources>
